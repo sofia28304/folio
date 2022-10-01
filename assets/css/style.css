@@ -58,15 +58,22 @@ header figure {
 header figure img {
     display: block;
     margin: 0 auto;
-    width:
-        50%;
+    width: 500px;
 }
 
 figcaption {
     text-align: left;
     display: block;
     margin: 5px auto;
-    width: 50%;
+    width: 500px;
+}
+
+.athene {
+    font-family: "athene";
+}
+
+.opensans {
+    font-family: "opensans";
 }
 
 /* header Ende
