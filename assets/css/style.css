@@ -42,11 +42,10 @@ header {
 }
 
 header section {
-    /* font-size: 0.5rem; */
     display: flex;
     justify-content: space-between;
     padding: 1% 10%;
-    border-bottom-color: 2px solid grey;
+    border-bottom: 2px solid grey;
 }
 
 header figure {
@@ -100,10 +99,9 @@ Main Anfang */
     line-height: 1.9;
 }
 
-/* .first {
-    padding: 0 0 10% 20%;
-    width: 40%;
-} */
+.first {
+    padding: 0 0 10% 10%;
+}
 
 .flex {
     display: flex;
@@ -155,7 +153,6 @@ main .Tabelle:last-of-type {
 
 .release img {
     width: 90px;
-    /* float: right; Float lässt es in den gelben Bereich rutschen */
 }
 
 /* Ende rosa main, Anfang geleber main */
@@ -178,7 +175,7 @@ main .Tabelle:last-of-type {
 }
 
 .textlinks {
-    margin: 3% 50% 10% 4%;
+    margin: 3% 55% 10% 4%;
     line-height: 1.9;
 }
 
@@ -187,7 +184,7 @@ main .Tabelle:last-of-type {
     height: 500px;
     background-repeat: no-repeat;
     background-position-x: right;
-    margin: 0 4% 3% 4%;
+    margin: 3% 4% 3% 4%;
 }
 
 .marconatto p {
@@ -214,7 +211,7 @@ main .Tabelle:last-of-type {
     height: 500px;
     background-repeat: no-repeat;
     background-position-x: right;
-    margin: 0 4% 3% 4%;
+    margin: 3% 4% 3% 4%;
 }
 
 .Folio p {
