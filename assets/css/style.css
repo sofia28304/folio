@@ -96,10 +96,14 @@ Main Anfang */
 }
 
 .Textrechts {
-    margin-left: 50%;
-    margin-right: 2%;
+    margin: 0 2% 0 50%;
     line-height: 1.9;
 }
+
+/* .first {
+    padding: 0 0 10% 20%;
+    width: 40%;
+} */
 
 .flex {
     display: flex;
@@ -166,7 +170,70 @@ main .Tabelle:last-of-type {
 
 .zahl02 {
     padding: 50px;
-    text-align: left;
+    text-align: end;
+}
+
+.rechts {
+    text-align: end;
+}
+
+.textlinks {
+    margin: 3% 50% 10% 4%;
+    line-height: 1.9;
+}
+
+.marconatto {
+    background-image: url(../images/bg-marconatto-1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin: 0 4% 3% 4%;
+}
+
+.marconatto p {
+    font-family: "Athene";
+    font-size: 4em;
+}
+
+.Kollwitz {
+    background-image: url(../images/kathe_cover-1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    margin: 3% 4% 3% 4%;
+}
+
+.Kollwitz p {
+    font-family: "Athene";
+    font-size: 4em;
+    text-align: end;
+}
+
+.Folio {
+    background-image: url(../images/bg-nicole-1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin: 0 4% 3% 4%;
+}
+
+.Folio p {
+    font-family: "Athene";
+    font-size: 4em;
+}
+
+.bored {
+    background-image: url(../images/boa_cover-1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    margin: 3% 4% 15% 4%;
+}
+
+.bored p {
+    font-family: "Athene";
+    font-size: 4em;
+    text-align: end;
 }
 
 /* Ende Main, Anfang Footer*/
@@ -174,6 +241,11 @@ main .Tabelle:last-of-type {
 footer {
     background-color: #D2D2D2;
     color: #388883;
+}
+
+.center {
+    width: 30%;
+    align-self: center;
 }
 
 footer section nav a {
@@ -185,4 +257,8 @@ footer section nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    font-size: 1.5em;
+    font-family: "opensans";
+    margin: 5% 4% 0 0;
+    padding: 0 0 4% 0;
 }
