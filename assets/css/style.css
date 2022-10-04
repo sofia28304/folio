@@ -22,6 +22,9 @@ h1 {
     text-align: center;
 }
 
+/* Die Unterstreichung der Textzeile könnte man auch mit width 50% und margin 0 auto links/rechts arrangieren.
+Die drei Striche zu einem langen Strich machen: umd die Striche einen span bauen und den dann auf letterspacing -14px einstellen.*/
+
 /* Die h1 sollte es nur im Header geben, daher hier schon fertig definiert. */
 
 h2 {
@@ -41,11 +44,17 @@ header {
     padding-bottom: 90px;
 }
 
+/* Damit die oberste Leiste beim scrollen im Bild bleibt: position: fixed, width 100%, display flex */
+
 header section {
     display: flex;
     justify-content: space-between;
     padding: 1% 10%;
     border-bottom: 2px solid grey;
+    /* 
+    position: fixed;
+    width: 100%;
+    padding: 5% 0 0 0; */
 }
 
 header figure {
